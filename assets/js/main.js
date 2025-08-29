@@ -74,10 +74,42 @@
 
 
 
-function developerOsama() {
-   document.querySelector("wwe").textContent = 
-   "the developer is niger Osama";
+// function developerOsama() {
+//    document.querySelector("wwe").textContent = 
+//    "the developer is niger Osama";
+// }
+// var prod
+// console.log(typeof developerOsama);
+// console.log(developerOsama instanceof Function);
+
+//  var age = 20;
+//  console.log(age);
+
+//  function sayHello()
+//  {
+//    window.alert("hello wold");
+//  }
+// document.querySelector("p").textContent ="hihi";
+// sayHello();
+// console.log(typeof sayHello);
+// console.log(document.querySelector("p"));
+
+// function changeMode(){
+//     var mybody = document.body;
+//     mybody.classList.toggle("dark");
+//     mybody.classList.toggle("light");
+// }
+
+function darkmode(){
+   document.querySelector("body").classList.add("dark");
 }
+function lightmode(){
+    document.querySelector("body").classList.remove("dark");
+ }
+document.querySelector(".lightMood").onclick = lightmode;
+document.querySelector(".darkMood").onclick  = 
+darkmode;
 
 
-
+console.log(document.querySelecton(".lightMood"));
+console.log(document.querySelecton(".lightMood"));
